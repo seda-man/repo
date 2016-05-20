@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/layout"
+    tools:context=".TooltipActivity">
+
+
+    <Button
+        android:id="@+id/header_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
+
+    <!--<com.example.seda.test.ToolTipView-->
+        <!--android:id="@+id/tooltip_1"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_toRightOf="@id/header_1"-->
+        <!--android:padding="8dp"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:text="Don't get it?"-->
+        <!--app:arrowLocation="left"-->
+        <!--app:anchoredView="@id/header_1"-->
+        <!--app:arrowAlignment="anchored_view"-->
+        <!--tools:visibility="visible"-->
+        <!--android:visibility="gone"/>-->
+
+
+</RelativeLayout>
